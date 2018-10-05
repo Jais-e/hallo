@@ -16,9 +16,11 @@ header{
   width: 1080px;
   height: 1920px;
   margin: 0 auto;
-  z-index: 99999;
+  z-index: 1;
 }
-
+.holder{
+  display: block;
+}
 .off {display: none;}
 
 .content{
@@ -30,6 +32,7 @@ header{
 }
 .slot{
   flex-basis: 25%;
+  z-index: 999;
 }
 /*newslider*/
 .marquee {
@@ -37,4 +40,14 @@ header{
   overflow: hidden;
   background: rgba(255, 0, 0, 0);
   font-size: 20px;
+  z-index: -1;
+
+}
+#randomize{
+  position: absolute;
+  width: 150px;
+  cursor: pointer;
+  margin: 100px auto;
+
+  z-index: 999999999;
 }
