@@ -6,7 +6,7 @@ $( "#cat1" )
     $( "#cat1 option:selected" ).each(function() {
       str += $( this ).text() + " ";
     });
-    $( "#1" ).text( str + ' is selected') ;
+    $( "#title1" ).text( str + ' is selected') ;
 
     console.log(str);
 
@@ -53,7 +53,7 @@ $('button').click(function(){
                                   Math.floor(Math.random() * names.length)
                                 , 1)[0];
   } while (randName.length < 3);
-$('#1').html(randName[0]);
+$('#one').html(randName[0]);
 
   console.log(randName);
 
