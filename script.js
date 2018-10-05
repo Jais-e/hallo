@@ -26,3 +26,10 @@ $('#3').html(randName[2]);
 
 
 });
+
+
+//newsslider
+
+$('.marquee').marquee({
+  duplicated: true
+});

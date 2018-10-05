@@ -3,3 +3,11 @@
 }
 
 .off {display: none;}
+
+
+/*newslider*/
+.marquee {
+  overflow: hidden;
+  border: 1px solid blue;
+  background: blue;
+}
