@@ -1,7 +1,7 @@
 // Dette er vores randomizer - P.t. kan den vælge tre tilfældige items ud og sætte dem ind i html'en. Vi skal udvide den lidt :-)
 
 
-$('button').click(function(){
+$('#randomize').click(function(){
 
 // Vi skal lave 4 var's - Een for hver kategori - "names" var er bare et eksempel jeg brugte da jeg skulle have den til at virke.
 // Denne type "array" kan indeholde flere værdier pr item - VI skal lave 3: Et billede, et stednavn og en beskrivelse
