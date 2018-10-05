@@ -19,7 +19,8 @@ header{
   z-index: 1;
 }
 .holder{
-  display: block;
+
+
 }
 .off {display: none;}
 
@@ -27,11 +28,13 @@ header{
 
   width: 100%;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-around;
   text-align: center;
 }
 .slot{
-  flex-basis: 25%;
+  flex-basis: 33%;
+  height: 200px;
   z-index: 999;
 }
 /*newslider*/
@@ -44,10 +47,11 @@ header{
 
 }
 #randomize{
-  position: absolute;
+
+  flex-basis: 10%;
   width: 150px;
   cursor: pointer;
-  margin: 100px auto;
+  margin: 10px auto;
 
   z-index: 999999999;
 }

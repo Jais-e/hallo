@@ -6,7 +6,7 @@ $( "#cat1" )
     $( "#cat1 option:selected" ).each(function() {
       str += $( this ).text() + " ";
     });
-    $( "#title1" ).text( str + ' is selected') ;
+    $( "#1" ).text( str + ' is selected') ;
   });
 
 
@@ -33,10 +33,10 @@ $('button').click(function(){
 
 
   var names = [
-    ["Billede1", " Titel1", " Beskrivelse1"],
-    ["Billede2", " Titel2", " Beskrivelse2"],
-    ["Billede3", " Titel3", " Beskrivelse3"],
-    ["Billede4", " Titel4", " Beskrivelse4"]
+    ["Billede1 <br/>", "Titel1 <br/>", "Beskrivelse1"],
+    ["Billede2 <br/>", "Titel2 <br/>", "Beskrivelse2"],
+    ["Billede3 <br/>", "Titel3 <br/>", "Beskrivelse3"],
+    ["Billede4 <br/>", "Titel4 <br/>", "Beskrivelse4"]
     ];
   var randName = [];
   do {
