@@ -1,4 +1,4 @@
-// Skifter overskrift til valgt kategori
+// Viser valgt kategori
 
 $( "#cat1" )
   .change(function() {
@@ -45,8 +45,7 @@ $('button').click(function(){
                                 , 1)[0];
   } while (randName.length < 3);
 $('#1').html(randName[0]);
-$('#1').html(randName[1]);
-$('#1').html(randName[2]);
+
   console.log(randName);
 
 
