@@ -1,5 +1,5 @@
 // Viser valgt kategori
-
+var selectedCat;
 $( "#cat1" )
   .change(function() {
     var str = "";
@@ -7,6 +7,13 @@ $( "#cat1" )
       str += $( this ).text() + " ";
     });
     $( "#1" ).text( str + ' is selected') ;
+
+    console.log(str);
+
+if (str == 'bar'){
+
+}
+
   });
 
 
@@ -27,6 +34,8 @@ $( "#cat1" )
         });
         $( "#title3" ).text( str + ' is selected') ;
       });
+
+
 
 // Dette er vores randomizer - P.t. kan den vælge tre tilfældige items ud og sætte dem ind i html'en. Vi skal udvide den lidt :-)
 $('button').click(function(){
