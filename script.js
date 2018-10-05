@@ -34,3 +34,12 @@ $('#randomize').click(function() {
 
     }
 });
+
+
+//newsslider - gentagelse, hastighed og hurtig start
+
+$('.marquee').marquee({
+  duplicated: true,
+  duration: 8000,
+  delayBeforeStart: 0,
+});

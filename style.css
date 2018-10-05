@@ -3,3 +3,12 @@
 }
 
 .off {display: none;}
+
+
+/*newslider*/
+.marquee {
+  padding-top: 5px;
+  overflow: hidden;
+  background: rgba(255, 0, 0, 0);
+  font-size: 20px;
+}
