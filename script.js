@@ -28,8 +28,10 @@ $('#3').html(randName[2]);
 });
 
 
-//newsslider
+//newsslider - gentagelse, hastighed og hurtig start
 
 $('.marquee').marquee({
-  duplicated: true
+  duplicated: true,
+  duration: 8000,
+  delayBeforeStart: 0,
 });
