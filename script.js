@@ -20,7 +20,7 @@ $( "#cat1" )
         str += $( this ).text() + " ";
       });
       $( "#title2" ).text( str + ' is selected') ;
-      selectedCat = str;
+      selectedCat = $("#cat1 option:selected" ).val();
       console.log(str);
       console.log(selectedCat);
     });
@@ -32,7 +32,7 @@ $( "#cat1" )
           str += $( this ).text() + " ";
         });
         $( "#title3" ).text( str + ' is selected') ;
-        selectedCat = str;
+        selectedCat = $("#cat1 option:selected" ).val();
         console.log(str);
         console.log(selectedCat);
       });
@@ -45,17 +45,17 @@ $('#randomize').click(function(){
 
   var food =
   [
-  ["<img src='img/logo1.png'/>", "<br/>Ali babas<br/>", "Beskrivelse1"],
-  ["<img src='img/logo1.png'/>", "<br/>Kowloon<br/>", "Beskrivelse2"],
-  ["<img src='img/logo1.png'/>", "<br/>Pita corner<br/>", "Beskrivelse3"],
-  ["<img src='img/logo1.png'/>", "<br/>A+ Siam Sushi<br/>", "Beskrivelse4"]
+  ["<img src='img/alibaba.jpg'/>", "<br/>Ali babas<br/>", "Beskrivelse1"],
+  ["<img src='img/kowloon.jpg'/>", "<br/>Kowloon<br/>", "Beskrivelse2"],
+  ["<img src='img/pitacorner.jpg'/>", "<br/>Pita corner<br/>", "Beskrivelse3"],
+  ["<img src='img/siamsushi.jpg'/>", "<br/>A+ Siam Sushi<br/>", "Beskrivelse4"]
   ];
   var bars =
     [
-  ["<img src='img/logo1.png'/>", "<br/>Fatter Eskil<br/>", "Beskrivelse1"],
-  ["<img src='img/logo1.png'/>", "<br/>G-Bar<br/>", "Beskrivelse2"],
-  ["<img src='img/logo1.png'/>", "<br/>Old Irish<br/>", "Beskrivelse3"],
-  ["<img src='img/logo1.png'/>", "<br/>Bodegaen<br/>", "Beskrivelse4"]
+  ["<img src='img/fattereskil.jpg'/>", "<br/>Fatter Eskil<br/>", "Beskrivelse1"],
+  ["<img src='img/gbar.jpg'/>", "<br/>G-Bar<br/>", "Beskrivelse2"],
+  ["<img src='img/oldirish.jpg'/>", "<br/>Old Irish<br/>", "Beskrivelse3"],
+  ["<img src='img/bodegaen.jpg'/>", "<br/>Bodegaen<br/>", "Beskrivelse4"]
   ];
   var cult =
     [

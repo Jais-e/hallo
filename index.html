@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,78 +8,83 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <!-- har tilføjet noget her -->
   <script src="https://cdn.jsdelivr.net/npm/jquery.marquee@1.5.0/jquery.marquee.min.js"></script>
-  <link rel="stylesheet" href="style.css"/>
+  <link rel="stylesheet" href="style.css" />
 
   <title>Document</title>
 </head>
+
 <body>
   <header></header>
-<div class="ramme">
-  <img src="img/ramme.png">
+  <div class="ramme">
+    <img src="img/ramme.png">
 </div>
-<main class="wrapper">
+    <main class="wrapper">
 
-<article class="content">
+      <article class="content">
 
-<div class="slots">
-
-
-<section class="slot" id="slot1">
-<div class="holder" id="one"></div>
-<h2 class="selected" id="title1"></h2>
-<select name="category1" id="cat1">
-  <option disabled selected value class="off">Select</option>
-  <option value="bar-cat">Bar</option>
-  <option value="food-cat">Food</option>
-  <option value="cult-cat">Culture</option>
-  <option value="act-cat">Activity</option>
-</select>
-
-</section>
-
-<section class="slot" id="slot2">
-<div class="holder" id="two"></div>
-  <h2 class="" id="title2"></h2>
-<select name="category2" id="cat2">
-  <option disabled selected value class="off">Select</option>
-  <option value="bar-cat">Bar</option>
-  <option value="food-cat">Food</option>
-  <option value="cult-cat">Culture</option>
-  <option value="act-cat">Activity</option>
-</select>
-
-</section>
-<section class="slot" id="slot3">
-<div class="holder" id="three"></div>
-  <h2 class="" id="title3"></h2>
-<select name="category3" id="cat3">
-  <option disabled selected value class="off">Select</option>
-  <option value="bar-cat">Bar</option>
-  <option value="food-cat">Food</option>
-  <option value="cult-cat">Culture</option>
-  <option value="act-cat">Activity</option>
-</select>
-
-</section>
-<button type="button" name="button" id="randomize">Randomize</button>
-</div>
-
-</article>
+        <div class="slots">
 
 
-<!--nyhedsstrimmel-->
-<section class="marquee">Movie showing in the café at 16:00 - Pub Crawl start at 19:00 meet-up at the café - Boardgame night starting at 20:00 -</section>
-</main>
+          <section class="slot" id="slot1">
+            <div class="holder" id="one"></div>
+
+            <select name="category1" id="cat1">
+              <option disabled selected value class="off">Select</option>
+              <option value="bar-cat">Bar</option>
+              <option value="food-cat">Food</option>
+              <option value="cult-cat">Culture</option>
+              <option value="act-cat">Activity</option>
+            </select>
+              <h2 class="selected" id="title1"></h2>
+          </section>
+
+          <section class="slot" id="slot2">
+            <div class="holder" id="two"></div>
+            <h2 class="" id="title2"></h2>
+            <select name="category2" id="cat2">
+              <option disabled selected value class="off">Select</option>
+              <option value="bar-cat">Bar</option>
+              <option value="food-cat">Food</option>
+              <option value="cult-cat">Culture</option>
+              <option value="act-cat">Activity</option>
+            </select>
+
+          </section>
+          <section class="slot" id="slot3">
+            <div class="holder" id="three"></div>
+            <h2 class="" id="title3"></h2>
+            <select name="category3" id="cat3">
+            <option disabled selected value class="off">Select</option>
+            <option value="bar-cat">Bar</option>
+            <option value="food-cat">Food</option>
+            <option value="cult-cat">Culture</option>
+            <option value="act-cat">Activity</option>
+          </select>
+
+          </section>
+
+          <button type="button" name="button" id="randomize">Randomize</button>
+        </div>
+
+      </article>
+      <section id="description">
+
+      </section>
+
+      <!--nyhedsstrimmel-->
+      <section class="marquee">Movie showing in the café at 16:00 - Pub Crawl start at 19:00 meet-up at the café - Boardgame night starting at 20:00 -</section>
+    </main>
 
 
 
 
 
 
-<script type="text/javascript" src="script.js"></script>
+    <script type="text/javascript" src="script.js"></script>
 
 
 
 
 </body>
+
 </html>
