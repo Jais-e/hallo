@@ -69,7 +69,7 @@ $('#randomize').click(function(){
   ["<img src='img/ohaven.jpg'/>", "<br/>Ø-Haven<br/>", "Beskrivelse1"],
   ["<img src='img/eventhall.jpg'/>", "<br/>Eventhall<br/>", "Beskrivelse2"],
   ["<img src='img/dyrehaven.jpg'/>", "<br/>Dyrehaven<br/>", "Beskrivelse3"],
-  ["<img src='img/boulders.jpg'/>", "<br/>Århus Boulders<br/>", "Beskrivelse4"]
+  ["<img src='img/boulders.jpg'/>", "<br/>Aarhus Boulders<br/>", "Beskrivelse4"]
   ];
 
 
