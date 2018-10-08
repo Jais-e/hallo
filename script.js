@@ -45,9 +45,9 @@ $('#randomize').click(function(){
 
   var food =
   [
-  ["<img src='img/alibaba.jpg'/>", "<br/>Ali babas<br/>", "Beskrivelse1"],
+  ["<img src='img/alibaba.jpg'/>", "<br/>Ali Baba<br/>", "Stop any person from Aarhus and ask about Ali Baba and they'll let you know how they serve the greatest drunk food in the city. Whether you want a slice of pizza or a kebab or a pita this is the place to go. <br> Vestergade 6B, 8000 Aarhus C"],
   ["<img src='img/kowloon.jpg'/>", "<br/>Kowloon<br/>", "Beskrivelse2"],
-  ["<img src='img/pitacorner.jpg'/>", "<br/>Pita corner<br/>", "Beskrivelse3"],
+  ["<img src='img/pitacorner.jpg'/>", "<br/>Pita corner<br/>", "If you go to the corner of Vesterbro Torv where Pita Corner is located on a friday night you will find a line of people going from the small shop to the street but don't let that intimidate you. Pita Corner serves the greatest Pita in Aarhus and you don't want to miss out. <br> Vesterbro Torv 17, 8000 Aarhus C"],
   ["<img src='img/siamsushi.jpg'/>", "<br/>A+ Siam Sushi<br/>", "Beskrivelse4"]
   ];
   var bars =
@@ -55,7 +55,7 @@ $('#randomize').click(function(){
   ["<img src='img/fattereskil.jpg'/>", "<br/>Fatter Eskil<br/>", "Beskrivelse1"],
   ["<img src='img/gbar.jpg'/>", "<br/>G-Bar<br/>", "Beskrivelse2"],
   ["<img src='img/oldirish.jpg'/>", "<br/>Old Irish<br/>", "Beskrivelse3"],
-  ["<img src='img/bodegaen.jpg'/>", "<br/>Bodegaen<br/>", "Beskrivelse4"]
+  ["<img src='img/bodegaen.jpg'/>", "<br/>Bodegaen<br/>", "If you want to feel like a true local go to Bodegaen and order a "Aarhus sæt" (a local Ceres beer and a shot)."]
   ];
   var cult =
     [
