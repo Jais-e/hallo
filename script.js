@@ -59,17 +59,17 @@ $('#randomize').click(function(){
   ];
   var cult =
     [
-  ["<img src='img/logo1.png'/>", "<br/>Steno Museet<br/>", "Beskrivelse1"],
-  ["<img src='img/logo1.png'/>", "<br/>Kunsthal Aarhus<br/>", "Beskrivelse2"],
-  ["<img src='img/logo1.png'/>", "<br/>Kvindemuseet<br/>", "Beskrivelse3"],
-  ["<img src='img/logo1.png'/>", "<br/>Marseillesborg slot<br/>", "Beskrivelse4"]
+  ["<img src='img/steno.jpg'/>", "<br/>Steno Museet<br/>", "Beskrivelse1"],
+  ["<img src='img/kunsthal.jpg'/>", "<br/>Kunsthal Aarhus<br/>", "Beskrivelse2"],
+  ["<img src='img/kvindemuseet.jpg'/>", "<br/>Kvindemuseet<br/>", "Beskrivelse3"],
+  ["<img src='img/marselisborg.jpg'/>", "<br/>Marseillesborg slot<br/>", "Beskrivelse4"]
   ];
   var acvtivity =
     [
-  ["<img src='img/logo1.png'/>", "<br/>Ø-Haven<br/>", "Beskrivelse1"],
-  ["<img src='img/logo1.png'/>", "<br/>Eventhall<br/>", "Beskrivelse2"],
-  ["<img src='img/logo1.png'/>", "<br/>Dyrehaven<br/>", "Beskrivelse3"],
-  ["<img src='img/logo1.png'/>", "<br/>Århus Boulders<br/>", "Beskrivelse4"]
+  ["<img src='img/ohaven.jpg'/>", "<br/>Ø-Haven<br/>", "Beskrivelse1"],
+  ["<img src='img/eventhall.jpg'/>", "<br/>Eventhall<br/>", "Beskrivelse2"],
+  ["<img src='img/dyrehaven.jpg'/>", "<br/>Dyrehaven<br/>", "Beskrivelse3"],
+  ["<img src='img/boulders.jpg'/>", "<br/>Århus Boulders<br/>", "Beskrivelse4"]
   ];
 
 
