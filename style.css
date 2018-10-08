@@ -6,6 +6,7 @@ body{
   height: 1920px;
   margin: 0 auto;
   padding: 80px 80px 80px 80px;
+
 }
 header{
   width: 100%;
@@ -18,6 +19,7 @@ header{
   height: 1920px;
   margin: 0 auto;
   z-index: -1;
+  background: #222222;
 }
 .holder{
 height: 200px;
@@ -39,14 +41,22 @@ height: 200px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  color: #fff;
 }
 .slot{
   position: relative;
   margin: 0 10px 50px 10px;
   flex-basis: 260px;
-  min-height: 350px;
+  min-height: 370px;
   z-index: 999;
   border: 1px solid black;
+
+}
+.slot-ramme{
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 260px;
 }
 #description{
 
@@ -57,6 +67,11 @@ select{
   width: 260px;
   bottom: -20px;
   left: 0;
+
+  -webkit-appearance: none;
+   -moz-appearance: none;
+   appearance: none;       /* remove default arrow */
+   background-image: url(...);   /* add custom arrow */
 
 }
 
@@ -69,6 +84,9 @@ select{
   background: rgba(255, 0, 0, 0);
   font-size: 20px;
   z-index: -1;
+  color: #2eabb4;
+  font-family: 'Codystar', cursive;
+  font-weight: 800;
 
 }
 #randomize{
@@ -78,6 +96,6 @@ select{
   cursor: pointer;
   margin: 50px auto;
   background-color: rgba(47, 215, 62, 0.78);
-  color: #fff;
+  color: #ffa304;
   z-index: 999999999;
 }
