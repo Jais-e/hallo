@@ -66,10 +66,10 @@ $('#randomize').click(function(){
   ];
   var activity =
     [
-  ["<img src='img/ohaven.jpg'/>", "<br/>Ø-Haven<br/>", "Beskrivelse1"],
-  ["<img src='img/eventhall.jpg'/>", "<br/>Eventhall<br/>", "Beskrivelse2"],
-  ["<img src='img/dyrehaven.jpg'/>", "<br/>Dyrehaven<br/>", "Beskrivelse3"],
-  ["<img src='img/boulders.jpg'/>", "<br/>Aarhus Boulders<br/>", "Beskrivelse4"]
+  ["<img src='img/ohaven.jpg'/>", "<br/>Ø-Haven<br/>", "Ø-haven is Denmark's biggest city garden with one of the most beautiful views. It is open to the public but the produce of the garden is reserved for the city farmers so enjoy the garden with your eyes and nose only. <br> Helga Pedersens gade, 8000 Aarhus C"],
+  ["<img src='img/eventhall.jpg'/>", "<br/>Eventhall<br/>", "Eventhall is the greatest playground for adults in Aarhus. Try inflatable activities such as bungeebasket, gladiator fights and mega foosball or go outside to try a game of paintball.<br> Øster Parkvej 2, 8270 Højbjerg"],
+  ["<img src='img/dyrehaven.jpg'/>", "<br/>Dyrehaven<br/>", "In Dyrehaven you can meet deers up close and feed them carrots or apples. You can also see wild boar through a fence and talk a walk along the beach nearby. Keep in mind the animals are wild, not pets. <br> Ørneredevej 6, 8270 Højbjerg"],
+  ["<img src='img/boulders.jpg'/>", "<br/>Aarhus Boulders<br/>", "In bouldering you climb up to 4.5 meters high walls with no harness or other equipment. Aarhus Boulders is for everyone - whether you've climbed a hundred times or never before. <br> Graham Bells vej 18A, 8200 Aarhus N"]
   ];
 
 
