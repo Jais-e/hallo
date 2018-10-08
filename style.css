@@ -43,7 +43,7 @@ height: 200px;
 .slot{
   position: relative;
   margin: 0 10px 50px 10px;
-  flex-basis: 30%;
+  flex-basis: 260px;
   min-height: 350px;
   z-index: 999;
   border: 1px solid black;
@@ -54,9 +54,12 @@ height: 200px;
 }
 select{
   position: absolute;
+  width: 260px;
   bottom: -20px;
-  margin-left: -30px;
+  left: 0;
+
 }
+
 /*newslider*/
 .marquee {
   width: 90%;

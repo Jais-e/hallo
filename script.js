@@ -64,7 +64,7 @@ $('#randomize').click(function(){
   ["<img src='img/logo1.png'/>", "<br/>Kvindemuseet<br/>", "Beskrivelse3"],
   ["<img src='img/logo1.png'/>", "<br/>Marseillesborg slot<br/>", "Beskrivelse4"]
   ];
-  var acvtivity =
+  var activity =
     [
   ["<img src='img/logo1.png'/>", "<br/>Ø-Haven<br/>", "Beskrivelse1"],
   ["<img src='img/logo1.png'/>", "<br/>Eventhall<br/>", "Beskrivelse2"],
